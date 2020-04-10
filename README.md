@@ -21,3 +21,5 @@ This files are the details of the recursion and the loop example that are used i
   #### Write a program to subtract two integers without using Minus (-) operator
   #### Write a program to add two integers without using Add (+) operator
   #### Write a program to find remainder of two numbers without using modulus (%) operator 
+  #### Write a program to generate Prime Numbers less than N and Generate ‘N’ Prime Numbers/in given range.
+  
