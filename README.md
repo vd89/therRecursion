@@ -25,3 +25,5 @@ This files are the details of the recursion and the loop example that are used i
   #### Write a program that prints the numbers from 1 to 100 and for multiples of '3' print "Fizz" instead of the number and for the multiples of '5' print "Buzz".
   #### Write a program to find the Sum of Array Elements. Write a program for swapping of two arrays
   #### Write a program to check whether given character is vowel or consonant
+  #### Write a program to find the largest number among three numbers
+  
