@@ -16,4 +16,4 @@ This files are the details of the recursion and the loop example that are used i
  #The Algorithems SECTION 2
     
     ## Write a program to given input Check whether Even or odd.
-        
+    ## Write a program to Generate Even and Odd Number less than N and Generate ‘N’ Even and Odd Numbers.
