@@ -11,12 +11,14 @@ console.log(sum); // 55
 
 
 var a = [1, 2, 3, 4, 5]
-var b = [6, 7, 8, 9, 10]
+var b = [6, 7, 8, 9, 10,78]
+
     
 for (var i = 0; i < b.length; i++) {
     a[i] = a[i] ^ b[i];
     b[i] = a[i] ^ b[i];
     a[i] = a[i] ^ b[i];
 }
-console.log(a); // [ 6, 7, 8, 9, 10 ]
-console.log(b); // [ 1, 2, 3, 4, 5 ]
+ console.log(a); // [ 6, 7, 8, 9, 10 ]
+ console.log(b); // [ 1, 2, 3, 4, 5 ]
+
