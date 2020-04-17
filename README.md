@@ -29,3 +29,5 @@ This files are the details of the recursion and the loop example that are used i
   #### Write a program to find the roots of a quadratic equation
   #### Write an algorithm to compute log(n)
   #### Write a program to Convert Decimal to Binary
+  #### Write a program to find the roots of a quadratic equatoin
+  
