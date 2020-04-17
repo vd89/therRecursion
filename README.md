@@ -33,3 +33,4 @@ This files are the details of the recursion and the loop example that are used i
   #### Write a program to Check Whether the given year is a leap year or not
   #### Write a program to check whether a number is a positive number or negative number?
   #### Write a program to find power of a number using recursion
+  #### Write a program check whether given character is an alphabet or not
