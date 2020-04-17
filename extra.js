@@ -50,9 +50,44 @@ function binary(asciiValue, result = '') {
 console.log(binary(32));
 
 
-// const newBin = (n) => {
-//     let resArr = []
-//     if (n<=1) {
-        
-//     }
-// }
+(function () {
+    try {
+        throw new Error();
+    } catch (x) {
+        var x = 1, y = 2;
+        console.log(x);
+    }
+    console.log(x);
+    console.log(y);
+})();
+
+var b = 1;
+function outer() {
+    var b = 2
+    function inner() {
+        // b++;
+        var b = 3
+        console.log(b)
+    }
+    inner();
+}
+outer();
+
+// To Get Random HexDec color
+const getHexDec = () => {
+    var ltr = "0123456789ABCDEF"
+    var color = "#"
+    for (let i = 0; i < 6; i++) {
+        color +=ltr[Math.floor(Math.random()*16)]        
+    }
+    return color
+}
+
+console.log(getHexDec());
+
+const getBg = () => {
+    const color = "#"+Math.floor(Math.random() * 16777215).toString(16)
+    console.log(`${color}`);
+}
+
+getBg()
