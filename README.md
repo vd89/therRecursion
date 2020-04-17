@@ -34,3 +34,4 @@ This files are the details of the recursion and the loop example that are used i
   #### Write a program to check whether a number is a positive number or negative number?
   #### Write a program to find power of a number using recursion
   #### Write a program check whether given character is an alphabet or not
+  #### Write a program to classify the triangle as equilateral, isosceles and scalene to the given sides of triangle.(HINT: Solve using semi-perimeter and area)
