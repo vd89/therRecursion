@@ -91,3 +91,6 @@ const getBg = () => {
 }
 
 getBg()
+
+
+console.log(typeof(15));
