@@ -1,6 +1,6 @@
 // Write a program to decide given N is Prime or not.
 
-const isPrime = (n) => {
+const isPrime =  (n) => {
   if (n <= 1) return false;
   if (n <= 3) return true;
 
@@ -16,3 +16,4 @@ console.log(isPrime(19)); // true
 console.log(isPrime(5)); // true
 
 console.log(isPrime(4)); // false
+module.exports = isPrime() 

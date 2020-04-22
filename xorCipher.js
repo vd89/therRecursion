@@ -13,3 +13,10 @@ var encript = crypt('abcd', 'DAX')
 var decript = crypt(encript, 'DAX')
 console.log(encript);
 console.log(decript);
+
+
+
+
+
+
+
