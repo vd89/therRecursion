@@ -16,4 +16,7 @@ console.log(isPrime(19)); // true
 console.log(isPrime(5)); // true
 
 console.log(isPrime(4)); // false
-module.exports = isPrime() 
+
+module.exports = {
+  prime:isPrime()
+};
