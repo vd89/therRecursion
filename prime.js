@@ -11,12 +11,12 @@ const isPrime =  (n) => {
   return true;
 };
 
-console.log(isPrime(19)); // true
+// console.log(isPrime(19)); // true
 
-console.log(isPrime(5)); // true
+// console.log(isPrime(5)); // true
 
-console.log(isPrime(4)); // false
+// console.log(isPrime(4)); // false
 
 module.exports = {
-  prime:isPrime()
+  isPrime
 };
