@@ -25,4 +25,4 @@ function armStrongNum(n) {
 
 // armStrongNum(1634);
 
-module.exports = { armStrongNum };
+module.exports = armStrongNum ;

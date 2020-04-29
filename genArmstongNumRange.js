@@ -6,11 +6,11 @@ const genArmStrongNumRange = (n) => {
   let armRange = [];
 
   for (var i = 0; i < n; i++) {
-    if (armStrongNum.armStrongNum(i)) {
+    if (armStrongNum(i)) {
       armRange.push(i);
     }
   }
-  if (armStrongNum.armStrongNum(n)) {
+  if (armStrongNum(n)) {
     armRange.push(n)
   }
   console.log(armRange);
