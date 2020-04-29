@@ -17,16 +17,19 @@ const findPrimeNarciss = (num) => {
   let narcArr = [];
   num.forEach((item) => {
     if (armStrongNum(item)) {
-      narcArr.push(item)
-      num.slice(item)
-      console.log(narcArr);
-    }else if (isPrime(item)) {
-      primArr.push(item)
-      num.slice(item)
+      narcArr.push(item);
+    } else if (isPrime(item)) {
+      primArr.push(item);
     }
   });
-  
-  return num
+  let numArr = primArr.concat(narcArr);
+  num = num.filter((item) => !numArr.includes(item));
+  return {
+    narcArr,
+    primArr,
+    numArr,
+    num,
+  };
 };
 let num = [10, 20, 30, 40, 2, 5, 7, 153, 1024, 1634, 11];
 console.log(findPrimeNarciss(num));
