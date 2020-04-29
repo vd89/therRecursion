@@ -16,13 +16,13 @@ function armStrongNum(n) {
   }
   if (sum == temp) {
     // console.log('It is armstong Number');
-      return true
+    return true;
   } else {
     // console.log('It is not an number');
-      return false
+    return false;
   }
 }
 
 // armStrongNum(1634);
 
-module.exports = armStrongNum ;
+module.exports = armStrongNum;

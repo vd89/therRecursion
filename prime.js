@@ -17,6 +17,4 @@ const isPrime =  (n) => {
 
 // console.log(isPrime(4)); // false
 
-module.exports = {
-  isPrime
-};
+module.exports = isPrime;
