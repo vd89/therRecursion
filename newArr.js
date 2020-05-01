@@ -36,3 +36,13 @@ toGetNewLength(nums)
 
 
 toGetLength(nums)
+
+var array = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+let count=0
+array = array.sort((a, b) => a - b);
+for (i = 0; i < array.length; i++) {
+    if (array[i] !== array[i + 1]) {
+       count++
+    }
+}
+console.log(count);
