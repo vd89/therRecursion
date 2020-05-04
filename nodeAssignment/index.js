@@ -19,3 +19,7 @@ file.forEach(file => {
        }
     })
 })
+
+
+// to call this     node index.js first.txt 
+// to call this     node index.js second.txt 
