@@ -13,7 +13,7 @@ const leftShift = (n, m) => {
     console.log(`The given general formula is false`);
   }
 };
-let a = 15;
+let a = 1;
 let b = 10;
 
 leftShift(a, b); //The general formula for left shift is n*(2^m) hence 15360 == 15360
