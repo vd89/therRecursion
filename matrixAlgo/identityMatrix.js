@@ -4,9 +4,9 @@ const toGenIdentity = (n) => {
         var arr=[]
         for (col = 0; col < n; col++){
             if (row == col) {
-                arr.push(`1`)
+                arr.push(1)
             } else {
-               arr.push(`0`)
+               arr.push(0)
             }
         }
       console.log(arr);
